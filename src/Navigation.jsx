@@ -7,6 +7,7 @@ export default function Navigation() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="goit-react-hw-08-phonebook/" element={<Login />}></Route>
         <Route
           path="goit-react-hw-08-phonebook/login"
           element={<Login />}
