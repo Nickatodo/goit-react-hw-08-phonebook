@@ -20,7 +20,7 @@ export default function Navigation() {
           path="goit-react-hw-08-phonebook/register"
           element={<Register />}
         ></Route>
-        <Route path="*" element={<h1>404</h1>}></Route>
+        <Route path="*" element={<Login />}></Route>
       </Routes>
     </BrowserRouter>
   );

@@ -1,12 +1,12 @@
 import FormContact from './FormContact';
 import ListContact from './ListContact';
+import UserMenu from './UserMenu';
 
 export default function App() {
   return (
     <>
-      <h1>Phonebook</h1>
+      <UserMenu />
       <FormContact />
-      <h2>Contacts</h2>
       <ListContact />
     </>
   );
